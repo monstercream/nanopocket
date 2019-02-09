@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Stage>
+		<id>1</id>
+		<ballcount>3</ballcount>
+	</Stage>
+	<Stage>
+		<id>2</id>
+		<ballcount>6</ballcount>
+	</Stage>
+	<Stage>
+		<id>3</id>
+		<ballcount>9</ballcount>
+	</Stage>
+	<Stage>
+		<id>4</id>
+		<ballcount>10</ballcount>
+	</Stage>
+</Root>

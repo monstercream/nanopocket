@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Shop>
+    <id>0</id>
+    <itemType>0</itemType>
+    <payType>0</payType>
+    <name>Item0</name>
+    <desc>Item0 desc</desc>
+    <spriteName>spriteName</spriteName>
+    <itemCount>0</itemCount>
+    <price>0</price>
+  </Shop>
+  <Shop>
+		<id>1</id>
+		<itemType>0</itemType>
+    <payType>0</payType>
+    <name>Item1</name>
+    <desc>Item1 desc</desc>
+    <spriteName>spriteName</spriteName>
+    <itemCount>1</itemCount>
+    <price>100</price>
+  </Shop>
+  <Shop>
+    <id>2</id>
+    <itemType>0</itemType>
+    <payType>0</payType>
+    <name>Item2</name>
+    <desc>Item2 desc</desc>
+    <spriteName>spriteName</spriteName>
+    <itemCount>1</itemCount>
+    <price>100</price>
+  </Shop>
+  <Shop>
+    <id>3</id>
+    <itemType>0</itemType>
+    <payType>0</payType>
+    <name>Item3</name>
+    <desc>Item3 desc</desc>
+    <spriteName>spriteName</spriteName>
+    <itemCount>1</itemCount>
+    <price>100</price>
+  </Shop>
+  <Shop>
+    <id>4</id>
+    <itemType>0</itemType>
+    <payType>0</payType>
+    <name>Item4</name>
+    <desc>Item4 desc</desc>
+    <spriteName>spriteName</spriteName>
+    <itemCount>1</itemCount>
+    <price>100</price>
+  </Shop>
+  <Shop>
+    <id>5</id>
+    <itemType>0</itemType>
+    <payType>0</payType>
+    <name>Item5</name>
+    <desc>Item5 desc</desc>
+    <spriteName>spriteName</spriteName>
+    <itemCount>1</itemCount>
+    <price>100</price>
+  </Shop>
+</Root>

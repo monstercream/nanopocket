@@ -1,0 +1,1102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: IngamePocketBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 03a7d3f57db0cb74c92978745c6ae855, type: 2}
+  mSprites: []
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites:
+  - name: PocketBallSetClear19
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 829
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 829
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set16
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 369
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 369
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set12
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 295
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 295
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set2
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 221
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 221
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set4
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 147
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 147
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set18
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 73
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 73
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear5
+    outer:
+      serializedVersion: 2
+      x: 644
+      y: 236
+      width: 319
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 644
+      y: 236
+      width: 319
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.005154639
+    paddingBottom: 0
+  - name: PocketBallSetClear7
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 830
+      width: 319
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 830
+      width: 319
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.005154639
+    paddingBottom: 0
+  - name: PocketBall_Ballnum15
+    outer:
+      serializedVersion: 2
+      x: 1932
+      y: 944
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1932
+      y: 944
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear13
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 631
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 631
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum7
+    outer:
+      serializedVersion: 2
+      x: 1209
+      y: 55
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1209
+      y: 55
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear3
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 235
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 235
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear10
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 37
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 37
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set5
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 756
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 756
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear16
+    outer:
+      serializedVersion: 2
+      x: 644
+      y: 631
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 644
+      y: 631
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear11
+    outer:
+      serializedVersion: 2
+      x: 1610
+      y: 830
+      width: 319
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 1610
+      y: 830
+      width: 319
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.005154639
+    paddingBottom: 0
+  - name: PocketBall_Ballnum9
+    outer:
+      serializedVersion: 2
+      x: 1133
+      y: 138
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1133
+      y: 138
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum10
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 139
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 139
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear17
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 633
+      width: 319
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 633
+      width: 319
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.005154639
+    paddingBottom: 0
+  - name: PocketBall_Set7
+    outer:
+      serializedVersion: 2
+      x: 1622
+      y: 756
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1622
+      y: 756
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 631
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 631
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set8
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 682
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 682
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear9
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 433
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 433
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set1
+    outer:
+      serializedVersion: 2
+      x: 1789
+      y: 756
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1789
+      y: 756
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 37
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 37
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum13
+    outer:
+      serializedVersion: 2
+      x: 1364
+      y: 303
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1364
+      y: 303
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear1
+    outer:
+      serializedVersion: 2
+      x: 644
+      y: 39
+      width: 319
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 644
+      y: 39
+      width: 319
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.005154639
+    paddingBottom: 0
+  - name: PocketBallSetClear12
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 235
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 235
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear15
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 830
+      width: 319
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 830
+      width: 319
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.005154639
+    paddingBottom: 0
+  - name: PocketBall_Set9
+    outer:
+      serializedVersion: 2
+      x: 1455
+      y: 682
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1455
+      y: 682
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear2
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 829
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 829
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set14
+    outer:
+      serializedVersion: 2
+      x: 1622
+      y: 682
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1622
+      y: 682
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum11
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 303
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 303
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set17
+    outer:
+      serializedVersion: 2
+      x: 1789
+      y: 682
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1789
+      y: 682
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum5
+    outer:
+      serializedVersion: 2
+      x: 1932
+      y: 861
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1932
+      y: 861
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum1
+    outer:
+      serializedVersion: 2
+      x: 1209
+      y: 138
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1209
+      y: 138
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear18
+    outer:
+      serializedVersion: 2
+      x: 644
+      y: 433
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 644
+      y: 433
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum4
+    outer:
+      serializedVersion: 2
+      x: 1357
+      y: 57
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1357
+      y: 57
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set3
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 608
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 608
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set20
+    outer:
+      serializedVersion: 2
+      x: 1455
+      y: 608
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1455
+      y: 608
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set15
+    outer:
+      serializedVersion: 2
+      x: 1622
+      y: 608
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1622
+      y: 608
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum8
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 221
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 221
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear20
+    outer:
+      serializedVersion: 2
+      x: 966
+      y: 443
+      width: 319
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 443
+      width: 319
+      height: 187
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.04278075
+    paddingBottom: 0
+  - name: PocketBall_Ballnum12
+    outer:
+      serializedVersion: 2
+      x: 1357
+      y: 221
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1357
+      y: 221
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set10
+    outer:
+      serializedVersion: 2
+      x: 1789
+      y: 608
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1789
+      y: 608
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum3
+    outer:
+      serializedVersion: 2
+      x: 1133
+      y: 55
+      width: 73
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1133
+      y: 55
+      width: 73
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear14
+    outer:
+      serializedVersion: 2
+      x: 644
+      y: 829
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 644
+      y: 829
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBallSetClear8
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 433
+      width: 319
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 433
+      width: 319
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set11
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 534
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 534
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum2
+    outer:
+      serializedVersion: 2
+      x: 1357
+      y: 139
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1357
+      y: 139
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum14
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 57
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 57
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set13
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 460
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 460
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Ballnum6
+    outer:
+      serializedVersion: 2
+      x: 1455
+      y: 526
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 1455
+      y: 526
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set6
+    outer:
+      serializedVersion: 2
+      x: 1288
+      y: 386
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1288
+      y: 386
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Set19
+    outer:
+      serializedVersion: 2
+      x: 1455
+      y: 756
+      width: 164
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1455
+      y: 756
+      width: 164
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Arrow
+    outer:
+      serializedVersion: 2
+      x: 1174
+      y: 372
+      width: 38
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 1174
+      y: 415
+      width: 38
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_AddScorePlus
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PocketBall_Arrow2
+    outer:
+      serializedVersion: 2
+      x: 1133
+      y: 372
+      width: 38
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 1133
+      y: 372
+      width: 38
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

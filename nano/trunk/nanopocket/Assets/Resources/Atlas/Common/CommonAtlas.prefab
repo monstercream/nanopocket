@@ -1,0 +1,1062 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &197924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 493516}
+  - 114: {fileID: 11423458}
+  m_Layer: 0
+  m_Name: CommonAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493516
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11423458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 93506469d4e8eec45bbcd31d6bb0e7c9, type: 2}
+  mSprites:
+  - name: AddFriends
+    x: 218
+    y: 87
+    width: 233
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 48
+    paddingRight: 49
+    paddingTop: 58
+    paddingBottom: 59
+  - name: ArrowBack
+    x: 1591
+    y: 1031
+    width: 218
+    height: 159
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 11
+    paddingTop: 41
+    paddingBottom: 40
+  - name: ArrowBasicLeft
+    x: 1270
+    y: 800
+    width: 169
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 80
+    paddingRight: 81
+    paddingTop: 64
+    paddingBottom: 65
+  - name: ArrowBasicRight
+    x: 923
+    y: 171
+    width: 169
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 80
+    paddingRight: 81
+    paddingTop: 64
+    paddingBottom: 65
+  - name: ArrowBottom
+    x: 517
+    y: 904
+    width: 191
+    height: 239
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 69
+    paddingRight: 70
+    paddingTop: 45
+    paddingBottom: 46
+  - name: ArrowLeft
+    x: 1683
+    y: 1411
+    width: 237
+    height: 192
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 47
+    paddingTop: 69
+    paddingBottom: 69
+  - name: ArrowRight
+    x: 709
+    y: 1191
+    width: 237
+    height: 192
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 47
+    paddingTop: 69
+    paddingBottom: 69
+  - name: ArrowThinLeft
+    x: 1417
+    y: 439
+    width: 145
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 92
+    paddingRight: 93
+    paddingTop: 71
+    paddingBottom: 71
+  - name: ArrowThinRight
+    x: 1417
+    y: 250
+    width: 145
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 92
+    paddingRight: 93
+    paddingTop: 71
+    paddingBottom: 71
+  - name: ArrowTop
+    x: 517
+    y: 1144
+    width: 191
+    height: 239
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 69
+    paddingRight: 70
+    paddingTop: 45
+    paddingBottom: 46
+  - name: Avatar1
+    x: 1237
+    y: 615
+    width: 179
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 27
+    paddingTop: 21
+    paddingBottom: 24
+  - name: Avatar2
+    x: 1237
+    y: 251
+    width: 178
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 27
+    paddingTop: 20
+    paddingBottom: 24
+  - name: Avatar3
+    x: 1802
+    y: 821
+    width: 179
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 26
+    paddingTop: 21
+    paddingBottom: 24
+  - name: Avatar4
+    x: 1440
+    y: 820
+    width: 181
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 26
+    paddingTop: 20
+    paddingBottom: 24
+  - name: Avatar5
+    x: 1622
+    y: 820
+    width: 179
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 27
+    paddingTop: 19
+    paddingBottom: 25
+  - name: Avatar6
+    x: 1810
+    y: 1008
+    width: 181
+    height: 182
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 25
+    paddingTop: 20
+    paddingBottom: 23
+  - name: BackgroundTopItems
+    x: 0
+    y: 1465
+    width: 516
+    height: 138
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Badge
+    x: 0
+    y: 735
+    width: 225
+    height: 268
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 52
+    paddingRight: 53
+    paddingTop: 31
+    paddingBottom: 31
+  - name: Bolt
+    x: 517
+    y: 626
+    width: 159
+    height: 277
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 85
+    paddingRight: 86
+    paddingTop: 26
+    paddingBottom: 27
+  - name: Circle
+    x: 0
+    y: 1604
+    width: 444
+    height: 444
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Close
+    x: 1470
+    y: 1386
+    width: 212
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 59
+    paddingRight: 59
+    paddingTop: 56
+    paddingBottom: 57
+  - name: CloseButton
+    x: 723
+    y: 1619
+    width: 103
+    height: 103
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 6
+    paddingBottom: 7
+  - name: CloseThin
+    x: 1095
+    y: 796
+    width: 174
+    height: 205
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 78
+    paddingRight: 78
+    paddingTop: 62
+    paddingBottom: 63
+  - name: Cloud
+    x: 1437
+    y: 1212
+    width: 254
+    height: 171
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 39
+    paddingTop: 79
+    paddingBottom: 80
+  - name: CoinBox
+    x: 517
+    y: 12
+    width: 173
+    height: 147
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 17
+    paddingBottom: 17
+  - name: CoinSack
+    x: 1107
+    y: 1614
+    width: 104
+    height: 130
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 42
+    paddingTop: 29
+    paddingBottom: 22
+  - name: CoinTower1
+    x: 614
+    y: 1623
+    width: 108
+    height: 99
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 39
+    paddingRight: 36
+    paddingTop: 42
+    paddingBottom: 40
+  - name: CoinTower2
+    x: 828
+    y: 1625
+    width: 70
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 59
+    paddingTop: 54
+    paddingBottom: 53
+  - name: CoinTower3
+    x: 899
+    y: 1641
+    width: 70
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 56
+    paddingRight: 57
+    paddingTop: 64
+    paddingBottom: 59
+  - name: CoinTower4
+    x: 970
+    y: 1657
+    width: 65
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 59
+    paddingRight: 59
+    paddingTop: 76
+    paddingBottom: 63
+  - name: Cup
+    x: 226
+    y: 790
+    width: 263
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 34
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Dollar
+    x: 517
+    y: 160
+    width: 153
+    height: 251
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 88
+    paddingRight: 89
+    paddingTop: 39
+    paddingBottom: 40
+  - name: Egual
+    x: 709
+    y: 167
+    width: 212
+    height: 179
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 58
+    paddingRight: 60
+    paddingTop: 75
+    paddingBottom: 76
+  - name: Facebook
+    x: 1095
+    y: 559
+    width: 141
+    height: 236
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 79
+    paddingRight: 80
+    paddingTop: 31
+    paddingBottom: 31
+  - name: FastForward
+    x: 1181
+    y: 1212
+    width: 255
+    height: 171
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 38
+    paddingTop: 79
+    paddingBottom: 80
+  - name: Friends
+    x: 238
+    y: 521
+    width: 237
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 47
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Google
+    x: 288
+    y: 1027
+    width: 228
+    height: 189
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 36
+    paddingRight: 36
+    paddingTop: 54
+    paddingBottom: 55
+  - name: Heart
+    x: 218
+    y: 301
+    width: 255
+    height: 197
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 38
+    paddingTop: 66
+    paddingBottom: 67
+  - name: Help
+    x: 1095
+    y: 345
+    width: 132
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 98
+    paddingRight: 100
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Home
+    x: 1031
+    y: 1390
+    width: 221
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 55
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Info
+    x: 452
+    y: 87
+    width: 56
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 137
+    paddingRight: 137
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Level
+    x: 709
+    y: 574
+    width: 212
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 59
+    paddingRight: 59
+    paddingTop: 71
+    paddingBottom: 71
+  - name: Lock
+    x: 517
+    y: 412
+    width: 183
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 73
+    paddingRight: 74
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Menu
+    x: 1711
+    y: 1610
+    width: 250
+    height: 149
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 39
+    paddingRight: 41
+    paddingTop: 90
+    paddingBottom: 91
+  - name: Messages
+    x: 1140
+    y: 1023
+    width: 237
+    height: 167
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 47
+    paddingTop: 81
+    paddingBottom: 82
+  - name: MoreHereStar
+    x: 1411
+    y: 1749
+    width: 299
+    height: 299
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Music
+    x: 517
+    y: 1384
+    width: 225
+    height: 219
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 52
+    paddingRight: 53
+    paddingTop: 58
+    paddingBottom: 53
+  - name: Pause
+    x: 923
+    y: 373
+    width: 169
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 80
+    paddingRight: 81
+    paddingTop: 64
+    paddingBottom: 65
+  - name: PlayIcon
+    x: 1417
+    y: 80
+    width: 144
+    height: 169
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 20
+    paddingTop: 12
+    paddingBottom: 11
+  - name: Plus
+    x: 709
+    y: 977
+    width: 213
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 58
+    paddingRight: 59
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Ranking
+    x: 743
+    y: 1432
+    width: 287
+    height: 171
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 22
+    paddingTop: 79
+    paddingBottom: 80
+  - name: Ranking2
+    x: 0
+    y: 499
+    width: 237
+    height: 235
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 47
+    paddingTop: 47
+    paddingBottom: 48
+  - name: Rate
+    x: 923
+    y: 575
+    width: 165
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 82
+    paddingRight: 83
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Repeat
+    x: 0
+    y: 259
+    width: 217
+    height: 239
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 56
+    paddingRight: 57
+    paddingTop: 45
+    paddingBottom: 46
+  - name: Rewind
+    x: 1692
+    y: 1212
+    width: 254
+    height: 171
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 38
+    paddingRight: 38
+    paddingTop: 79
+    paddingBottom: 80
+  - name: Settings
+    x: 1253
+    y: 1390
+    width: 216
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 57
+    paddingRight: 57
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Share
+    x: 0
+    y: 45
+    width: 216
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 57
+    paddingRight: 57
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Shop
+    x: 709
+    y: 763
+    width: 208
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 60
+    paddingRight: 62
+    paddingTop: 58
+    paddingBottom: 59
+  - name: Sound
+    x: 923
+    y: 789
+    width: 171
+    height: 212
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 79
+    paddingRight: 80
+    paddingTop: 58
+    paddingBottom: 60
+  - name: SoundOn
+    x: 0
+    y: 1004
+    width: 287
+    height: 212
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 22
+    paddingTop: 59
+    paddingBottom: 59
+  - name: Speech
+    x: 923
+    y: 1002
+    width: 216
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 57
+    paddingRight: 57
+    paddingTop: 71
+    paddingBottom: 71
+  - name: Star
+    x: 268
+    y: 1225
+    width: 237
+    height: 239
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 47
+    paddingTop: 45
+    paddingBottom: 46
+  - name: Star2
+    x: 1711
+    y: 1760
+    width: 293
+    height: 288
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 44
+    paddingTop: 46
+    paddingBottom: 45
+  - name: StarCoin
+    x: 1107
+    y: 1745
+    width: 303
+    height: 303
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 10
+    paddingTop: 10
+    paddingBottom: 10
+  - name: StarCoin3d
+    x: 445
+    y: 1614
+    width: 168
+    height: 108
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 20
+    paddingTop: 17
+    paddingBottom: 10
+  - name: StarCoinChest
+    x: 445
+    y: 1723
+    width: 382
+    height: 325
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 17
+    paddingTop: 11
+    paddingBottom: 5
+  - name: StarCoinSack
+    x: 828
+    y: 1700
+    width: 278
+    height: 348
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 18
+    paddingTop: 17
+    paddingBottom: 11
+  - name: StarCoinTowerx2
+    x: 1411
+    y: 1604
+    width: 174
+    height: 144
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 25
+    paddingTop: 21
+    paddingBottom: 22
+  - name: StarCoinTowerx3
+    x: 1237
+    y: 70
+    width: 168
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 23
+    paddingTop: 24
+    paddingBottom: 18
+  - name: StarCoinTowerx4
+    x: 709
+    y: 347
+    width: 168
+    height: 226
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 21
+    paddingBottom: 20
+  - name: StarCoinTowerx6
+    x: 0
+    y: 1217
+    width: 267
+    height: 247
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 27
+    paddingTop: 17
+    paddingBottom: 14
+  - name: Stop
+    x: 923
+    y: 3
+    width: 165
+    height: 167
+    borderLeft: 40
+    borderRight: 40
+    borderTop: 40
+    borderBottom: 40
+    paddingLeft: 82
+    paddingRight: 83
+    paddingTop: 81
+    paddingBottom: 82
+  - name: Stop (Copy)
+    x: 1417
+    y: 628
+    width: 165
+    height: 167
+    borderLeft: 40
+    borderRight: 40
+    borderTop: 40
+    borderBottom: 40
+    paddingLeft: 82
+    paddingRight: 83
+    paddingTop: 81
+    paddingBottom: 82
+  - name: Tick
+    x: 1378
+    y: 1015
+    width: 212
+    height: 175
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 59
+    paddingRight: 59
+    paddingTop: 77
+    paddingBottom: 78
+  - name: Twitter
+    x: 947
+    y: 1193
+    width: 233
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 33
+    paddingTop: 54
+    paddingBottom: 54
+  - name: Unknown
+    x: 1237
+    y: 433
+    width: 178
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 5
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[16].borderLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[16].borderRight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[16].borderBottom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mSprites.Array.data[16].borderTop
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 197924}
+  m_IsPrefabParent: 1

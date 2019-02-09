@@ -1,0 +1,760 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &197550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 447300}
+  - 114: {fileID: 11480212}
+  m_Layer: 0
+  m_Name: OutgameAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &447300
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11480212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 2480488bbbf015649a0a2afd829f3ee6, type: 2}
+  mSprites:
+  - name: BackGroundBox
+    x: 2005
+    y: 1718
+    width: 330
+    height: 330
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BadgeBronze
+    x: 2336
+    y: 1407
+    width: 160
+    height: 211
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 82
+    paddingRight: 88
+    paddingTop: 53
+    paddingBottom: 66
+  - name: BadgeGold
+    x: 2336
+    y: 1195
+    width: 160
+    height: 211
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 80
+    paddingRight: 90
+    paddingTop: 53
+    paddingBottom: 66
+  - name: BadgeSilver
+    x: 2336
+    y: 983
+    width: 159
+    height: 211
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 82
+    paddingRight: 89
+    paddingTop: 53
+    paddingBottom: 66
+  - name: Box
+    x: 2795
+    y: 1826
+    width: 208
+    height: 222
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 61
+    paddingRight: 61
+    paddingTop: 54
+    paddingBottom: 54
+  - name: Chocolate
+    x: 2005
+    y: 1452
+    width: 301
+    height: 265
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 17
+    paddingTop: 47
+    paddingBottom: 18
+  - name: Clock
+    x: 3458
+    y: 1840
+    width: 204
+    height: 208
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 63
+    paddingRight: 63
+    paddingTop: 61
+    paddingBottom: 61
+  - name: Coin1
+    x: 2497
+    y: 1155
+    width: 108
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 107
+    paddingRight: 115
+    paddingTop: 123
+    paddingBottom: 136
+  - name: CoinBox
+    x: 2005
+    y: 1203
+    width: 292
+    height: 248
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 23
+    paddingTop: 34
+    paddingBottom: 48
+  - name: Coins2
+    x: 2954
+    y: 1328
+    width: 118
+    height: 97
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 102
+    paddingRight: 110
+    paddingTop: 110
+    paddingBottom: 123
+  - name: Coins2d
+    x: 3701
+    y: 1469
+    width: 138
+    height: 149
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 92
+    paddingRight: 100
+    paddingTop: 83
+    paddingBottom: 98
+  - name: Coins3
+    x: 2719
+    y: 1300
+    width: 118
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 102
+    paddingRight: 110
+    paddingTop: 96
+    paddingBottom: 109
+  - name: Coins4
+    x: 2563
+    y: 1834
+    width: 231
+    height: 214
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 50
+    paddingRight: 49
+    paddingTop: 58
+    paddingBottom: 58
+  - name: CoinSack
+    x: 3416
+    y: 1442
+    width: 126
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 98
+    paddingRight: 106
+    paddingTop: 70
+    paddingBottom: 84
+  - name: CoinSack2Coins
+    x: 2005
+    y: 16
+    width: 235
+    height: 222
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 48
+    paddingRight: 47
+    paddingTop: 66
+    paddingBottom: 42
+  - name: CoinSackTower
+    x: 3857
+    y: 1829
+    width: 176
+    height: 219
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 73
+    paddingRight: 81
+    paddingTop: 49
+    paddingBottom: 62
+  - name: CommonAtlas
+    x: 0
+    y: 3
+    width: 2004
+    height: 2045
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 44
+    paddingTop: 3
+    paddingBottom: 0
+  - name: Crown
+    x: 3543
+    y: 1484
+    width: 157
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 82
+    paddingRight: 91
+    paddingTop: 91
+    paddingBottom: 105
+  - name: CupBronze
+    x: 2840
+    y: 1448
+    width: 162
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 80
+    paddingRight: 88
+    paddingTop: 74
+    paddingBottom: 86
+  - name: CupCake
+    x: 2526
+    y: 1622
+    width: 179
+    height: 185
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 72
+    paddingRight: 79
+    paddingTop: 66
+    paddingBottom: 79
+  - name: CupGold
+    x: 3928
+    y: 1636
+    width: 162
+    height: 171
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 80
+    paddingRight: 88
+    paddingTop: 73
+    paddingBottom: 86
+  - name: CupSilver
+    x: 3003
+    y: 1448
+    width: 162
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 80
+    paddingRight: 88
+    paddingTop: 73
+    paddingBottom: 87
+  - name: CupSliver2
+    x: 2336
+    y: 1808
+    width: 226
+    height: 240
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 55
+    paddingRight: 49
+    paddingTop: 47
+    paddingBottom: 43
+  - name: Diamond2dBlue
+    x: 2706
+    y: 1651
+    width: 196
+    height: 156
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 63
+    paddingRight: 71
+    paddingTop: 80
+    paddingBottom: 94
+  - name: DiamondBlue
+    x: 3074
+    y: 1632
+    width: 170
+    height: 175
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 76
+    paddingRight: 84
+    paddingTop: 71
+    paddingBottom: 84
+  - name: DiamondPink
+    x: 3416
+    y: 1634
+    width: 170
+    height: 173
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 77
+    paddingRight: 83
+    paddingTop: 71
+    paddingBottom: 86
+  - name: DiamondPurple
+    x: 3587
+    y: 1634
+    width: 170
+    height: 173
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 77
+    paddingRight: 83
+    paddingTop: 71
+    paddingBottom: 86
+  - name: DiamondTurquoise
+    x: 2903
+    y: 1632
+    width: 170
+    height: 175
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 77
+    paddingRight: 83
+    paddingTop: 70
+    paddingBottom: 85
+  - name: DiamondYellow
+    x: 3245
+    y: 1632
+    width: 170
+    height: 175
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 76
+    paddingRight: 84
+    paddingTop: 70
+    paddingBottom: 85
+  - name: Heart
+    x: 2005
+    y: 239
+    width: 268
+    height: 205
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 31
+    paddingTop: 62
+    paddingBottom: 63
+  - name: Key
+    x: 2336
+    y: 12
+    width: 138
+    height: 182
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 92
+    paddingRight: 100
+    paddingTop: 67
+    paddingBottom: 81
+  - name: Leaf
+    x: 2336
+    y: 562
+    width: 140
+    height: 203
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 91
+    paddingRight: 99
+    paddingTop: 57
+    paddingBottom: 70
+  - name: Lifebelt
+    x: 2336
+    y: 1619
+    width: 189
+    height: 188
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 66
+    paddingRight: 75
+    paddingTop: 64
+    paddingBottom: 78
+  - name: Lock
+    x: 2336
+    y: 195
+    width: 145
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 89
+    paddingRight: 96
+    paddingTop: 71
+    paddingBottom: 85
+  - name: Magic
+    x: 3004
+    y: 1817
+    width: 199
+    height: 231
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 62
+    paddingRight: 69
+    paddingTop: 43
+    paddingBottom: 56
+  - name: Magnet3d
+    x: 3758
+    y: 1639
+    width: 169
+    height: 168
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 76
+    paddingRight: 85
+    paddingTop: 74
+    paddingBottom: 88
+  - name: Mail
+    x: 3204
+    y: 1872
+    width: 253
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 41
+    paddingRight: 36
+    paddingTop: 79
+    paddingBottom: 75
+  - name: Maps
+    x: 2607
+    y: 1260
+    width: 111
+    height: 165
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 105
+    paddingRight: 114
+    paddingTop: 75
+    paddingBottom: 90
+  - name: MissionsIcon
+    x: 3991
+    y: 1431
+    width: 86
+    height: 91
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 47
+    paddingRight: 47
+    paddingTop: 45
+    paddingBottom: 44
+  - name: Pencil
+    x: 2241
+    y: 6
+    width: 84
+    height: 232
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 123
+    paddingRight: 123
+    paddingTop: 49
+    paddingBottom: 49
+  - name: Popsicle
+    x: 2497
+    y: 1227
+    width: 109
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 106
+    paddingRight: 115
+    paddingTop: 59
+    paddingBottom: 73
+  - name: PotionGreen
+    x: 3291
+    y: 1436
+    width: 124
+    height: 182
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 107
+    paddingTop: 67
+    paddingBottom: 81
+  - name: PotionPink
+    x: 3166
+    y: 1436
+    width: 124
+    height: 182
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 107
+    paddingTop: 67
+    paddingBottom: 81
+  - name: Ranking
+    x: 2005
+    y: 445
+    width: 259
+    height: 252
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 37
+    paddingTop: 40
+    paddingBottom: 38
+  - name: RankingIcon
+    x: 2838
+    y: 1315
+    width: 115
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 32
+    paddingTop: 35
+    paddingBottom: 35
+  - name: Settings
+    x: 2005
+    y: 698
+    width: 258
+    height: 253
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 35
+    paddingTop: 39
+    paddingBottom: 38
+  - name: Shop
+    x: 2005
+    y: 952
+    width: 272
+    height: 250
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 29
+    paddingTop: 41
+    paddingBottom: 39
+  - name: ShopIcon
+    x: 3991
+    y: 1523
+    width: 103
+    height: 95
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 39
+    paddingRight: 38
+    paddingTop: 42
+    paddingBottom: 43
+  - name: Speech
+    x: 3840
+    y: 1483
+    width: 150
+    height: 135
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 90
+    paddingRight: 90
+    paddingTop: 80
+    paddingBottom: 115
+  - name: Strawberry
+    x: 2336
+    y: 370
+    width: 134
+    height: 191
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 94
+    paddingRight: 102
+    paddingTop: 63
+    paddingBottom: 76
+  - name: SuitcaseYellow
+    x: 2673
+    y: 1452
+    width: 166
+    height: 166
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 82
+    paddingRight: 82
+    paddingTop: 82
+    paddingBottom: 82
+  - name: Sword
+    x: 2336
+    y: 766
+    width: 137
+    height: 216
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 92
+    paddingRight: 101
+    paddingTop: 50
+    paddingBottom: 64
+  - name: Time
+    x: 2497
+    y: 1426
+    width: 175
+    height: 192
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 73
+    paddingRight: 82
+    paddingTop: 62
+    paddingBottom: 76
+  - name: Witch
+    x: 3663
+    y: 1838
+    width: 193
+    height: 210
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 64
+    paddingRight: 73
+    paddingTop: 53
+    paddingBottom: 67
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 197550}
+  m_IsPrefabParent: 1
